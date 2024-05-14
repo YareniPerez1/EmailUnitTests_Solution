@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+	<TestRunParameters>
+
+		<Parameter name ="emailempty" value =""/>
+		<Parameter name ="spaceemail" value ="sandy lo@gmail.com"/>
+		<Parameter name ="noatsymbolemail" value ="example.com"/>
+		<Parameter name ="nodotemail" value ="example2!@gmailcom"/>
+		<Parameter name ="@before.email" value ="alber.to@gmail"/>
+		<Parameter name ="nousernameemail" value ="@gmail.com"/>
+		<Parameter name ="over100charusername" value ="superduperlongusernamesuperduperlongusernamesuperduperlonguserna!esuperduperlongusernamesuperduperlonguser@gmail.com"/>
+		<Parameter name ="over100chardomain" value ="superduperlongdomain@gmail.superduperlongdomainsuperduperlongdomainsuperduperlongdomainsuperduperlongsuperduperlongdomainlongdomain"/>
+		<Parameter name ="hasinvalidcharemail" value ="hey/@gmail.com"/>
+		<Parameter name ="lessthan3domain" value ="john@gmail.co"/>
+		<Parameter name ="Containsnonalphaatendemail" value ="john@gmail.com*"/>
+		<Parameter name ="validemai1" value ="j@gmail.com"/>
+		<Parameter name ="validemail2" value ="joes-+@jp.coo"/>
+		<Parameter name ="validemail3" value ="super&amp;wierd^email@.com"/>
+		<Parameter name ="validemail4" value ="s~!$%^&amp;*_=+}{\\'?-@jo.com"/>
+		<Parameter name ="validemail5" value ="example.1@gmail.pmm"/>
+		<Parameter name ="validemail6" value ="verylongusername@hotmail.com"/>
+		<Parameter name ="validemail7" value ="j0hn%5@short.com"/>
+		<Parameter name ="validemail8" value ="DoeJ$89@g.hey"/>
+		<Parameter name ="validemail9" value ="q2w@xp@wed.net"/>
+		<Parameter name ="validemail10" value ="h-e~Y@hey.hey"/>
+
+
+
+		<!--<Parameter name ="checkforalpha" value ="heyte@ooo.co&amp;"/>-->
+		<!--<Parameter name ="two" value ="5"/>
+		<Parameter name ="three" value ="6"/>
+		<Parameter name ="four" value ="4"/>-->
+
+	</TestRunParameters>
+
+	<LoggerRunSettings>
+		<Loggers>
+			<Logger friendlyName="console" enabled="True">
+				<Configuration>
+					<Verbosity>quiet</Verbosity>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="trx" enabled="True">
+				<Configuration>
+					<LogFileName>foo.trx</LogFileName>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="html" enabled="True">
+				<Configuration>
+					<LogFileName>Perez_Report.html</LogFileName>
+				</Configuration>
+			</Logger>
+		</Loggers>
+	</LoggerRunSettings>
+</RunSettings>
