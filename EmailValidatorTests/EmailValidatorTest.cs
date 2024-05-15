@@ -178,7 +178,8 @@ namespace EmailValidatorTests
         [TestMethod]
         public void valid_email_five()
         {
-           string email = GetTestSetting<string>("validemail5", "example.1@gmail.pmm");
+            TestContext.WriteLine(TestContext.TestName);
+            string email = GetTestSetting<string>("validemail5", "example.1@gmail.pmm");
             bool isInvalid = EmailValidator.IsValidEmail(email);
             Assert.IsTrue(isInvalid);
            
@@ -187,6 +188,7 @@ namespace EmailValidatorTests
         [TestMethod]
         public void valid_email_six()
         {
+            TestContext.WriteLine(TestContext.TestName);
             string email = GetTestSetting<string>("validemail6", "verylongusername@hotmail.com");
             bool isInvalid = EmailValidator.IsValidEmail(email);
             Assert.IsTrue(isInvalid);
@@ -197,6 +199,7 @@ namespace EmailValidatorTests
         [TestMethod]
         public void valid_email_seven()
         {
+            TestContext.WriteLine(TestContext.TestName);
             string email = GetTestSetting<string>("validemail7", "j0hn%5@short.com");
             bool isInvalid = EmailValidator.IsValidEmail(email);
             Assert.IsTrue(isInvalid);
@@ -207,6 +210,7 @@ namespace EmailValidatorTests
         [TestMethod]
         public void valid_email_eight()
         {
+            TestContext.WriteLine(TestContext.TestName);
             string email = GetTestSetting<string>("validemail8", "DoeJ$89@g.hey");
             bool isInvalid = EmailValidator.IsValidEmail(email);
             Assert.IsTrue(isInvalid);
@@ -218,6 +222,7 @@ namespace EmailValidatorTests
         [TestMethod]
         public void valid_email_nine()
         {
+            TestContext.WriteLine(TestContext.TestName);
             string email = GetTestSetting<string>("validemail9", "q2w@xp@wed.net");
             bool isInvalid = EmailValidator.IsValidEmail(email);
             Assert.IsTrue(isInvalid);
@@ -229,6 +234,7 @@ namespace EmailValidatorTests
 
         public void valid_email_ten()
         {
+            TestContext.WriteLine(TestContext.TestName);
             string email = GetTestSetting<string>("validemail10", "h-e~Y@hey.hey");
             bool isInvalid = EmailValidator.IsValidEmail(email);
             Assert.IsTrue(isInvalid);
