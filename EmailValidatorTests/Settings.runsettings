@@ -11,7 +11,7 @@
 		<Parameter name ="over100charusername" value ="superduperlongusernamesuperduperlongusernamesuperduperlonguserna!esuperduperlongusernamesuperduperlonguser@gmail.com"/>
 		<Parameter name ="over100chardomain" value ="superduperlongdomain@gmail.superduperlongdomainsuperduperlongdomainsuperduperlongdomainsuperduperlongsuperduperlongdomainlongdomain"/>
 		<Parameter name ="hasinvalidcharemail" value ="hey/@gmail.com"/>
-		<Parameter name ="lessthan3domain" value ="john@gmail.co"/>
+		<Parameter name ="lessthan3domain" value ="john@g."/>
 		<Parameter name ="Containsnonalphaatendemail" value ="john@gmail.com*"/>
 		<Parameter name ="validemai1" value ="j@gmail.com"/>
 		<Parameter name ="validemail2" value ="joes-+@jp.coo"/>

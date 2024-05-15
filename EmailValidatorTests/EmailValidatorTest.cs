@@ -116,7 +116,7 @@ namespace EmailValidatorTests
         public void less_than3_domain()
         {
             TestContext.WriteLine(TestContext.TestName);
-            string email = GetTestSetting<string>("lessthan3domain", "john@gmail.co");
+            string email = GetTestSetting<string>("lessthan3domain", "john@g.");
             bool isInvalid = EmailValidator.IsValidEmail(email);
             Assert.IsFalse(isInvalid);
 
@@ -236,5 +236,7 @@ namespace EmailValidatorTests
 
 
         }
+
+      
     }
 }
