@@ -67,7 +67,7 @@ namespace EmailValidatorTests
 
         [TestMethod]
 
-        public void nodomainemail()
+        public void no_username_email()
         {
             TestContext.WriteLine(TestContext.TestName);
             string email = GetTestSetting<string>("nousernameemail", "@gmail.com");
