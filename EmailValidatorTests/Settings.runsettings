@@ -13,6 +13,7 @@
 		<Parameter name ="hasinvalidcharemail" value ="hey/@gmail.com"/>
 		<Parameter name ="lessthan3domain" value ="john@g."/>
 		<Parameter name ="Containsnonalphaatendemail" value ="john@gmail.com*"/>
+		<Parameter name ="Containsdouble@" value ="john@doe@gmail.com"/>
 		<Parameter name ="validemai1" value ="j@gmail.com"/>
 		<Parameter name ="validemail2" value ="joes-+@jp.coo"/>
 		<Parameter name ="validemail3" value ="super&amp;wierd^email@.com"/>
@@ -21,7 +22,7 @@
 		<Parameter name ="validemail6" value ="verylongusername@hotmail.com"/>
 		<Parameter name ="validemail7" value ="j0hn%5@short.com"/>
 		<Parameter name ="validemail8" value ="DoeJ$89@g.hey"/>
-		<Parameter name ="validemail9" value ="q2w@xp@wed.net"/>
+		<Parameter name ="validemail9" value ="q2wxp@wed.net"/>
 		<Parameter name ="validemail10" value ="h-e~Y@hey.hey"/>
 
 

@@ -132,6 +132,18 @@ namespace EmailValidatorTests
 
         }
 
+
+        [TestMethod]
+
+        public void contains_double_at()
+        {
+            TestContext.WriteLine(TestContext.TestName);
+            string email = GetTestSetting<string>("Containsdouble@", "john@doe@gmail.com");
+            bool isInvalid = EmailValidator.IsValidEmail(email);
+            Assert.IsFalse(isInvalid);
+
+        }
+
         [TestMethod]
 
         public void valid_email_one()
@@ -223,7 +235,7 @@ namespace EmailValidatorTests
         public void valid_email_nine()
         {
             TestContext.WriteLine(TestContext.TestName);
-            string email = GetTestSetting<string>("validemail9", "q2w@xp@wed.net");
+            string email = GetTestSetting<string>("validemail9", "q2wxp@wed.net");
             bool isInvalid = EmailValidator.IsValidEmail(email);
             Assert.IsTrue(isInvalid);
 
